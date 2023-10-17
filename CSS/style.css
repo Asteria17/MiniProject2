@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+#logo {
+  width: 130px;
+  object-fit: contain;
+}
+
+#mainMenu .nav-link {
+  color: black;
+}
+
+#mainMenu .nav-link:hover {
+  background: rgb(255, 52, 106);
+  color: rgb(254, 254, 254);
+  border-radius: 5px;
+}
+
+.active {
+  background: rgb(255, 52, 106);
+  border-radius: 5px;
+}
+
+.navbar-nav li {
+  /* padding: 10px; */
+  font-weight: bolder;
+}
+
+nav {
+  background: #f8f6f4;
+}
+
+.dropdown-menu {
+  background: #000000;
+}
+
+.dropdown-menu a {
+  color: #bd3944;
+  font-size: 14px;
+  font-family: 'Amarante', cursive;
+  font-weight: 900;
+}
+
+.dropdown-item:hover {
+  background: #230344;
+  color: #fd4556;
+  border-radius: 5px;
+}
+
+.cart {
+  width: 80px;
+}
+
+/* Hero Section  */
+
+#Hero {
+  background: url(../img/HEROMP2.png) center center/cover no-repeat;
+  width: 100%;
+  height: 80vh;
+  margin-top: 4rem;
+}
+
+#Hero-p h2 {
+}
+#Hero-p h2 {
+  font-size: 2.8rem;
+  color: rgb(0, 89, 129);
+}
+
+#Hero-p {
+  padding-top: 17rem;
+  font-weight: 5000;
+  opacity: 1;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(0, 161, 225);
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn a {
+  font-family: 'Sanchez', serif;
+  color: #000000;
+  text-decoration: none;
+  border: 2px 2px;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 540;
+}
+
+.btn:hover {
+  background-color: rgb(255, 52, 106);
+}
+
+/* ######Featured###### */
+/* Featured Container */
+.featured-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 5px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  background: rgb(0, 89, 124);
+}
